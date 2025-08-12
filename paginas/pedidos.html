@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Pedidos</title>
+</head>
+
+<body>
+    <header></header>
+    <main class="flex flex-col items-center min-h-screen bg-cyan-950">
+        <h1 class="text-3xl font-bold text-center text-white">Personaliza tus pedidos</h1>
+        <form action="" class="mt-8 w-full max-w-lg p-6">
+            <div class="mb-4">
+                <label for="nombreCompleto" class="block text-white font-bold">Nombre completo</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto"
+                    class="mt-1 p-2 rounded bg-white text-black w-full max-w-md" placeholder="Juan Perez">
+            </div>
+            <div class="mb-4">
+                <label for="direccion" class="block text-white font-bold">Dirección</label>
+                <input type="text" id="direccion" name="direccion"
+                    class="mt-1 p-2 rounded bg-white text-black w-full max-w-md" placeholder="Fachinal">
+            </div>
+            <div>
+                <label for="telefono" class="block text-white font-bold">Teléfono</label>
+                <input type="text" id="telefono" name="telefono"
+                    class="mt-1 p-2 rounded bg-white text-black w-full max-w-md" placeholder="3764123456">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-white font-bold">Email</label>
+                <input type="text" id="email" name="email"
+                    class="mt-1 p-2 rounded bg-white text-black w-full max-w-md" placeholder="juanperez333@gmail.com">
+            </div>
+            <div>
+                <label for="pedido" class="block text-white font-bold">Pedido o cotización</label>
+                <textarea id="pedido" name="pedido"
+                    class="mt-1 p-2 rounded bg-white text-black w-full max-w-md h-32"
+                    placeholder="Escribe aquí tu pedido o cotización..."></textarea>
+            </div>
+            <div>
+                <input type="button" value="Enviar"
+                    class="mt-4 bg-yellow-900 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded w-full max-w-md h-14 cursor-pointer">
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
